@@ -1,4 +1,4 @@
-Prog2 Project - Soyuz
+Project Soyuz
 =====================
 
 This project started with a __simple__ idea, let's make a phone from an old radio. The radio, which from the design started, is from one of my old friend, who found it at a garbage disposal.
@@ -28,6 +28,7 @@ Hardware
 
 Needed for assembly
 -------------------
+
 * Programming
 	* Arduino IDE
 	* USB-C cable
@@ -40,4 +41,22 @@ Needed for assembly
 	* Soldering iron
 	* Wire cutter
 	
+The menu of the phone
+---------------------
 
+1. Main page (shows date, time, battery charge, temperature, signal strength)
+1. Contact list (saved contacts readed from flash memory of ESP32)
+1. Messages (you get a message, if you have a missed call)
+1. Restart (reboot the phone)
+1. Dial number (you can dial a number if you wan to call without saving it)
+1. Save contact (save a phone number with a contact name)
+1. Delete contact (no need to explain)
+
+You can select the above menu items by pressing the sidebutton, the rotary encoder is used for scrolling between them.
+If the sidebutton is pressed, while on the main page, the backlight will turn OFF/ON.
+If the backlight is off, any input will be ignored except for one, the sidebutton is used to turn the backlight on again.
+
+3D render of internal components
+--------------------------------
+
+[placeholder-image]: http://placekitten.com/240/240 "Early render"
