@@ -1,8 +1,10 @@
-#Prog2 Project - Soyuz
+Prog2 Project - Soyuz
+=====================
 
 This project started with a #simple# idea, lets make a phone from an old radio. 
 
-##Hardware
+Hardware
+--------
 
 * LILYGO TTGO T-CALL ESP32 SIM800L
 * 1602 LCD Display
@@ -20,7 +22,8 @@ This project started with a #simple# idea, lets make a phone from an old radio.
 * 3 x 18650 battery
 * 3 x 18650 battery case
 
-##Needed for assembly
+Needed for assembly
+-------------------
 
 * Mounting material
 	* Wire
