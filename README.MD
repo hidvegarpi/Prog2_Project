@@ -60,3 +60,4 @@ If the backlight is off, any input will be ignored except for one, the sidebutto
 --------------------------------
 
 ![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/early_render_of_internal_components_1.png)
+*Early render*
