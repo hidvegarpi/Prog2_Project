@@ -1,7 +1,8 @@
 Project Soyuz - Work in Progress
 =====================
 
-This project started with a __simple__ idea, let's make a phone from an old radio. The radio, which from the design started, is from one of my old friend, who found it at a garbage disposal.
+This project started with a __simple__ idea, let's make a phone from an old radio.
+The radio, which from the design started, is from one of my old friend, who found it at a garbage disposal.
 
 Hardware
 --------
