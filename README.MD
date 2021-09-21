@@ -1,3 +1,5 @@
+Code will be uploaded when working only wiht minor bugs
+=======================================================
 Project Soyuz - Work in Progress
 ================================
 
