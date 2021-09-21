@@ -76,4 +76,4 @@ Schematics
 |*Early render*|
 |![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/3D%20Renders/early_render_of_internal_components_1.gif)|
 |*Early render*|
-|[![<img src="https://img.youtube.com/vi/-1axZrk7Lxg/maxresdefault.jpg" width="50%">]](https://youtu.be/-1axZrk7Lxg)|
+|[![Video](https://img.youtube.com/vi/-1axZrk7Lxg/maxresdefault.jpg)](https://youtu.be/-1axZrk7Lxg)|
