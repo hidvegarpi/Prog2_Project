@@ -27,7 +27,7 @@ Hardware
 * [5V Voltage regulator LM1084IT-5.0](https://www.hestore.hu/prod_10026480.html "Order here")
 * 3 x 18650 battery
 * [3 x 18650 battery case](https://www.hestore.hu/prod_10037304.html "Order here")
-* 2 x Custom PCB, designs included here ([you can order them here](https://jlcpcb.com/ "JLC PCB"))
+* 2 x Custom PCB, designs included [here](https://github.com/hidvegarpi/Prog2_Project/tree/main/PCB%20files) ([you can order them here](https://jlcpcb.com/ "JLC PCB"))
 
 Needed for assembly
 -------------------
