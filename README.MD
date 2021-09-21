@@ -77,8 +77,4 @@ Schematics
 |:--:|
 |*Early render*|
 
-[//]: #(|[![Video](https://img.youtube.com/vi/-1axZrk7Lxg/maxresdefault.jpg)](https://youtu.be/-1axZrk7Lxg)|)
-
-[//]: #(|*Early render video (click on image)*|)
-
 https://user-images.githubusercontent.com/31046450/134226589-6e8bb250-8c95-4d1f-a1aa-492d8cc737f8.mp4
