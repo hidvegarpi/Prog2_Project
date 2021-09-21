@@ -49,7 +49,7 @@ The menu of the phone
 1. Contact list (saved contacts readed from flash memory of ESP32)
 1. Messages (you get a message, if you have a missed call)
 1. Restart (reboot the phone)
-1. Dial number (you can dial a number if you wan to call without saving it)
+1. Dial number (you can dial a number if you want to call without saving it)
 1. Save contact (save a phone number with a contact name)
 1. Delete contact (no need to explain)
 
