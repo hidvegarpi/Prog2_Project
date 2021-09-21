@@ -1,4 +1,4 @@
-Code will be uploaded when working only wiht minor bugs
+Code will be uploaded when working only with minor bugs
 =======================================================
 Project Soyuz - Work in Progress
 ================================
@@ -78,3 +78,4 @@ Schematics
 |*Early render*|
 |[![Video](https://img.youtube.com/vi/-1axZrk7Lxg/maxresdefault.jpg)](https://youtu.be/-1axZrk7Lxg)|
 |*Early render video (click on image)*|
+https://github.com/hidvegarpi/Prog2_Project/blob/main/3D%20Renders/early_render.mkv
