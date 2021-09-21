@@ -24,7 +24,7 @@ Hardware
 * 2 x 220 kohm resistor
 * Microphone
 * 8 ohm speaker
-* Li-ion battery charger
+* [Li-ion battery charger] (https://www.hestore.hu/prod_10042093.html "Order here")
 * [DC-DC Boost converter](https://www.hestore.hu/prod_10042081.html "Order here")
 * [5V Voltage regulator LM1084IT-5.0](https://www.hestore.hu/prod_10026480.html "Order here")
 * 3 x 18650 battery
