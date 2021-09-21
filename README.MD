@@ -57,6 +57,15 @@ You can select the above menu items by pressing the sidebutton, the rotary encod
 If the sidebutton is pressed, while on the main page, the backlight will turn OFF/ON.
 If the backlight is off, any input will be ignored except for one, the sidebutton is used to turn the backlight on again.
 
+Schematics
+----------
+|![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%files/Schematics/Project%20Soyuz%20Schematic.jpg)|
+|:--:|
+|*Main board*|
+|![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%files/Schematics/Project%20Soyuz%20PWR%20EXT%20Schematic.jpg)|
+|*Power management extension*|
+
+
 3D render of internal components EARLY RENDERS
 --------------------------------
 
