@@ -1,5 +1,5 @@
 Project Soyuz - Work in Progress
-=====================
+================================
 
 This project started with a __simple__ idea, let's make a phone from an old radio.
 The radio, which from the design started, is from one of my old friend, who found it at a garbage disposal.
@@ -69,7 +69,7 @@ Schematics
 
 
 3D render of internal components EARLY RENDERS
---------------------------------
+----------------------------------------------
 
 |![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/3D%20Renders/early_render_of_internal_components_1.png)|
 |:--:|
