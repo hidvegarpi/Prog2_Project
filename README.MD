@@ -59,10 +59,10 @@ If the backlight is off, any input will be ignored except for one, the sidebutto
 
 Schematics
 ----------
-|![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%files/Schematics/Project%20Soyuz%20Schematic.jpg)|
+|![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%20files/Schematics/Project%20Soyuz%20Schematic.jpg)|
 |:--:|
 |*Main board*|
-|![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%files/Schematics/Project%20Soyuz%20PWR%20EXT%20Schematic.jpg)|
+|![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%20files/Schematics/Project%20Soyuz%20PWR%20EXT%20Schematic.jpg)|
 |*Power management extension*|
 
 
