@@ -4,6 +4,8 @@ Project Soyuz - Work in Progress
 This project started with a __simple__ idea, let's make a phone from an old radio.
 The radio, which from the design started, is from one of my old friend, who found it at a garbage disposal.
 
+I will be thankful for any suggestions on how to improve the design.
+
 Hardware
 --------
 
@@ -59,10 +61,10 @@ If the backlight is off, any input will be ignored except for one, the sidebutto
 
 Schematics
 ----------
-|![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%20files/Schematics/Project%20Soyuz%20Schematic.jpg)|
+|![Schematic](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%20files/Schematics/Project%20Soyuz%20Schematic.jpg)|
 |:--:|
 |*Main board*|
-|![Early render](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%20files/Schematics/Project%20Soyuz%20PWR%20EXT%20Schematic.jpg)|
+|![Schematic](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%20files/Schematics/Project%20Soyuz%20PWR%20EXT%20Schematic.jpg)|
 |*Power management extension*|
 
 
