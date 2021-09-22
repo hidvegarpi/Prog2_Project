@@ -67,7 +67,7 @@ Schematics
 |:--:|
 |*Main board*|
 |![Schematic](https://github.com/hidvegarpi/Prog2_Project/blob/main/PCB%20files/Schematics/Project%20Soyuz%20PWR%20EXT%20Schematic.jpg)|
-|*Power management extension*|
+|*Power management extension (will be updated)*|
 
 
 3D render of internal components EARLY RENDERS
