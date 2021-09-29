@@ -199,6 +199,6 @@ void WriteHum() { // Write humidity to serial
 
 Footnotes:
 ---
-<a name="myfootnote1">1</a>: Source: various websites, the official SIM800 [documentation]("https://www.elecrow.com/wiki/images/2/20/SIM800_Series_AT_Command_Manual_V1.09.pdf" "PDF"), library included examples.\
-<a name="myfootnote2">2</a>: Source: various [websites]("https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24" "Good example"), library included examples.\
-<a name="myfootnote3">3</a>: Source: various [websites]("https://lastminuteengineers.com/bme280-arduino-tutorial/" "Good example"), library included examples.
+<a name="myfootnote1">1</a>: Source: various websites, the official SIM800 [documentation](https://www.elecrow.com/wiki/images/2/20/SIM800_Series_AT_Command_Manual_V1.09.pdf "PDF"), library included examples.\
+<a name="myfootnote2">2</a>: Source: various [websites](https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24 "Good example"), library included examples.\
+<a name="myfootnote3">3</a>: Source: various [websites](https://lastminuteengineers.com/bme280-arduino-tutorial/ "Good example"), library included examples.
