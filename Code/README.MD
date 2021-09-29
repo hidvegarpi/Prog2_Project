@@ -32,6 +32,7 @@ HardwareSerial hwSerial(1);
 GPRS gprs(hwSerial, SIMCARD_PWKEY, SIMCARD_RST, SIM800_POWER_ON);
 
 void Setup() {
+    Serial.begin(9600); // Serial for debug reasons
     hwSerial.begin(UART_BAUD_RATE, SERIAL_8N1, UART_RX, UART_TX); // Start the serial interface
     CMD("AT");  // Sending the first AT command, if the 
 }
