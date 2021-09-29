@@ -4,7 +4,7 @@ The actual program of the ptoject
 The program is written in the [Arduino IDE]("https://www.arduino.cc/en/software" "Download here").
 A few libraries, and board managers need to be downloaded for the code to compile.
 
-AT Commands example[^1]
+AT Commands example<sup>[1](#myfootnote1)</sup>
 ---
 
 AT commands are sent through a I2C connection from the ESP32 to the SIM800 module.
@@ -76,7 +76,7 @@ void SendSMS(String to, String msg) {
 }
 ```
 
-I2C LCD Example[^2]
+I2C LCD Example<sup>[2](#myfootnote2)</sup>
 ---
 
 To tell the user what is actually happening there is a 16 character wide, 2 line LCD display with
@@ -134,6 +134,6 @@ lcd.backlight();   // Toggle backlight on
 lcd.noBacklight(); // Toggle backlight off
 ```
 
-[^1]: Source: various websites, the official SIM800 documentation, library included examples.
+<a name="myfootnote1">1</a>: Source: various websites, the official SIM800 documentation, library included examples.
 
-[^2]: Source: various [websites]("https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24" "Good example"), library included examples.
+<a name="myfootnote2">2</a>: Source: various [websites]("https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24" "Good example"), library included examples.
