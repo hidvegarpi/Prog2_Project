@@ -1,5 +1,7 @@
-The actual program of the ptoject
-=================================
+Code will be uploaded when working only with minor bugs
+===
+The actual program of the project
+===
 
 The program is written in the [Arduino IDE]("https://www.arduino.cc/en/software" "Download here").
 A few libraries, and board managers need to be downloaded for the code to compile.
