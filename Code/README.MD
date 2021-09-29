@@ -135,4 +135,5 @@ lcd.noBacklight(); // Toggle backlight off
 ```
 
 [^1]: Source: various websites, the official SIM800 documentation, library included examples.
+
 [^2]: Source: various [websites]("https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24" "Good example"), library included examples.
