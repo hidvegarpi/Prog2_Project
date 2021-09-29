@@ -9,7 +9,8 @@ AT Commands example<sup>[1](#myfootnote1)</sup>
 
 AT commands are sent through a I2C connection from the ESP32 to the SIM800 module.
 We need to create this connection first.
-In the example below, we define the global variables needed and start the serial connection.
+In the example below, we define the global variables needed and start the serial connection.\
+__NOTE:__ The following functions take relatively long time to execute, because it has to communicate with other hardware.
 
 ```C++
 // Importing libraries
@@ -81,7 +82,8 @@ I2C LCD Example<sup>[2](#myfootnote2)</sup>
 
 To tell the user what is actually happening there is a 16 character wide, 2 line LCD display with
 an I2C LCD driver for easier wiring and control. In this example we will start an I2C connection
-with the driver.
+with the driver.\
+__NOTE:__ The following functions take relatively long time to execute, because it has to communicate with other hardware.
 
 ```C++
 // Importing libraries
@@ -134,6 +136,7 @@ lcd.backlight();   // Toggle backlight on
 lcd.noBacklight(); // Toggle backlight off
 ```
 
-<a name="myfootnote1">1</a>: Source: various websites, the official SIM800 documentation, library included examples.
-
+Footnotes:
+---
+<a name="myfootnote1">1</a>: Source: various websites, the official SIM800 documentation, library included examples.\
 <a name="myfootnote2">2</a>: Source: various [websites]("https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24" "Good example"), library included examples.
