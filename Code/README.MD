@@ -155,12 +155,12 @@ __NOTE:__ The following functions take relatively long time to execute, because 
 Adafruit_BME280 bme;
 
 void setup() {
-	Serial.begin(9600); // Serial for debug reasons
+    Serial.begin(9600); // Serial for debug reasons
 
-	if (!bme.begin(0x76)) { // Check if there is a BME280 sensor at address 0x76
-		Serial.println("Could not find a valid BME280 sensor, check wiring!");
-		while (1);
-	}
+    if (!bme.begin(0x76)) { // Check if there is a BME280 sensor at address 0x76
+    Serial.println("Could not find a valid BME280 sensor, check wiring!");
+        while (1);
+    }
 
     Serial.println("Found device"); // Found a BME280 sensor at address 0x76
 }
@@ -171,26 +171,26 @@ Now we have connection, so we can get data from the sensor.
 ```C++
 void WriteTemp() { // Write temperature to serial
     Serial.print("Temperature = ");
-	Serial.print(bme.readTemperature());
-	Serial.println("*C");
+    Serial.print(bme.readTemperature());
+    Serial.println("*C");
 }
 
 void WritePres() { // Write pressure to serial
-	Serial.print("Pressure = ");
-	Serial.print(bme.readPressure() / 100.0F);
-	Serial.println("hPa");
+    Serial.print("Pressure = ");
+    Serial.print(bme.readPressure() / 100.0F);
+    Serial.println("hPa");
 }
 
 void WriteAlt() { // Write aprox. altitude to serial
-	Serial.print("Approx. Altitude = ");
-	Serial.print(bme.readAltitude(SEALEVELPRESSURE_HPA));
-	Serial.println("m");
+    Serial.print("Approx. Altitude = ");
+    Serial.print(bme.readAltitude(SEALEVELPRESSURE_HPA));
+    Serial.println("m");
 }
 
 void WriteHum() { // Write humidity to serial
-	Serial.print("Humidity = ");
-	Serial.print(bme.readHumidity());
-	Serial.println("%");
+    Serial.print("Humidity = ");
+    Serial.print(bme.readHumidity());
+    Serial.println("%");
 }
 ```
 
