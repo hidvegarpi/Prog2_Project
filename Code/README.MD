@@ -153,14 +153,15 @@ __NOTE:__ The following functions take relatively long time to execute, because 
 #include <Adafruit_BME280.h>
 
 // Defining global variables
-#define SEALEVELPRESSURE_HPA (1013.25)
+#define SEALEVELPRESSURE_HPA    1013.25
+#define BME280_ADDR             0x76
 
 Adafruit_BME280 bme;
 
 void setup() {
     Serial.begin(9600); // Serial for debug reasons
 
-    if (!bme.begin(0x76)) { // Check if there is a BME280 sensor at address 0x76
+    if (!bme.begin(BME280_ADDR)) { // Check if there is a BME280 sensor at address 0x76
     Serial.println("Could not find a valid BME280 sensor, check wiring!");
         while (1);
     }
