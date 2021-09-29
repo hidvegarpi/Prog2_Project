@@ -77,7 +77,7 @@ void SendSMS(String to, String msg) {
 }
 ```
 
-I2C LCD Example<sup>[2](#myfootnote2)</sup>
+I2C LCD example<sup>[2](#myfootnote2)</sup>
 ---
 
 To tell the user what is actually happening there is a 16 character wide, 2 line LCD display with
@@ -136,7 +136,66 @@ lcd.backlight();   // Toggle backlight on
 lcd.noBacklight(); // Toggle backlight off
 ```
 
+BME280 example<sup>[3](#myfootnote3)</sup>
+---
+
+For real time temperature data, we use a BME280 sensor which communicates over I2C (what a surprise).
+As we already learned above, first we need to estabilish connection with the device.\
+__NOTE:__ The following functions take relatively long time to execute, because it has to communicate with other hardware.
+
+```C++
+// Importing libraries
+#include <Wire.h>
+#include <Adafruit_Sensor.h>
+#include <Adafruit_BME280.h>
+
+// Defining global variables
+#define SEALEVELPRESSURE_HPA (1013.25)
+
+Adafruit_BME280 bme;
+
+void setup() {
+	Serial.begin(9600); // Serial for debug reasons
+
+	if (!bme.begin(0x76)) { // Check if there is a BME280 sensor at address 0x76
+		Serial.println("Could not find a valid BME280 sensor, check wiring!");
+		while (1);
+	}
+
+    Serial.println("Found device"); // Found a BME280 sensor at address 0x76
+}
+```
+
+Now we have connection, so we can get data from the sensor.
+
+```C++
+void WriteTemp() { // Write temperature to serial
+    Serial.print("Temperature = ");
+	Serial.print(bme.readTemperature());
+	Serial.println("*C");
+}
+
+void WritePres() { // Write pressure to serial
+	Serial.print("Pressure = ");
+	Serial.print(bme.readPressure() / 100.0F);
+	Serial.println("hPa");
+}
+
+void WriteAlt() { // Write aprox. altitude to serial
+	Serial.print("Approx. Altitude = ");
+	Serial.print(bme.readAltitude(SEALEVELPRESSURE_HPA));
+	Serial.println("m");
+}
+
+void WriteHum() { // Write humidity to serial
+	Serial.print("Humidity = ");
+	Serial.print(bme.readHumidity());
+	Serial.println("%");
+}
+```
+
 Footnotes:
 ---
-<a name="myfootnote1">1</a>: Source: various websites, the official SIM800 documentation, library included examples.\
-<a name="myfootnote2">2</a>: Source: various [websites]("https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24" "Good example"), library included examples.
+<a name="myfootnote1">1</a>: Source: various websites, the official SIM800 [documentation]("https://www.elecrow.com/wiki/images/2/20/SIM800_Series_AT_Command_Manual_V1.09.pdf" "PDF"), library included examples.\
+<a name="myfootnote2">2</a>: Source: various [websites]("https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24" "Good example"), library included examples.\
+<a name="myfootnote3">3</a>: Source: various [websites]("https://lastminuteengineers.com/bme280-arduino-tutorial/" "Good example"), library included examples.
