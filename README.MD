@@ -1,5 +1,3 @@
-Code will be uploaded when working only with minor bugs
-===
 Project Soyuz - Work in Progress
 ===
 
@@ -56,6 +54,8 @@ The menu of the phone
 1. Dial number (you can dial a number if you want to call without saving it)
 1. Save contact (save a phone number with a contact name)
 1. Delete contact (no need to explain)
+1. Change in call volume
+1. Change ringer volume
 
 You can select the above menu items by pressing the sidebutton, the rotary encoder is used for scrolling between them.
 If the sidebutton is pressed, while on the main page, the backlight will turn OFF/ON.
