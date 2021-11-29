@@ -1,5 +1,3 @@
-Code will be uploaded when working only with minor bugs
-===
 The actual program of the project
 ===
 
